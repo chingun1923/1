@@ -1,0 +1,30 @@
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: crimson;
+}
+@media screen and (max-width: 480px) {
+  .box {
+    background-color: rgb(19, 70, 225);
+  }
+}
+@media screen and (min-width: 768px) {
+  .box {
+    background-color: rgb(215, 225, 19);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .box {
+    background-color: aqua;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box {
+    background-color: rgb(153, 19, 225);
+  }
+}
+@media screen and (min-width: 1201) {
+  .box {
+    background-color: rgb(81, 225, 19);
+  }
+}

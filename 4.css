@@ -1,0 +1,10 @@
+body {
+  margin: 0%;
+}
+head {
+  margin: 0%;
+}
+.container {
+  max-width: 1200px;
+  max-height: 1200px;
+}
